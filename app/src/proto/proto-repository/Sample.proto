@@ -1,0 +1,19 @@
+syntax = "proto2";
+
+package rao.pb;
+
+option java_package = "com.rao.checkproto.pb";
+
+message Sample {
+    optional uint32 x = 1;
+    optional uint32 y = 2;
+    required string name = 3;
+    required int32 id = 4;
+    optional string url = 5;
+    optional string description = 6;
+    enum PhoneType {
+        MOBILE = 0;
+        HOME = 1;
+        WORK = 2;
+    }
+}

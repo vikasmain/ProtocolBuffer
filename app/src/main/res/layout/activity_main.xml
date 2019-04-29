@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:id="@+id/title"
+        android:textSize="24sp"
+        tools:text="Hello From Protobuffers"
+        android:textColor="@color/colorAccent"
+         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/desc"
+        android:layout_marginTop="40dp"
+        tools:text="Hello From Protobuffers"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/url"
+        android:layout_marginTop="40dp"
+        tools:text="Hello From Protobuffers"
+        android:textStyle="italic|bold"
+        android:textColor="@color/colorPrimaryDark"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/test_kotlin"
+        android:layout_margin="8dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+        android:text="Press here to test Kotlin with ProtoBuffer"/>
+</LinearLayout>
