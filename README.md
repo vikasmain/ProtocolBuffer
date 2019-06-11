@@ -27,7 +27,7 @@ so, protocol buffers are used to built a great schema language.
 3. it is mostly used with internal api's calls.
 4. Protocol Buffers also defines a compact binary encoding of messages that conform to the schema. This encoding is fast to encode, fast to decode, small to transmit, and small to store. The binary encoding uses numeric tags from the schema, like the 5 for period above.
 
-<b>Wire/protocol buffer is used to parse protocol buffers like GSON and moshi used to parse JSON but wire/protocol buffers is very fast compsred to GSON.
+<b>Wire/protocol buffer is used to parse protocol buffers like GSON and moshi used to parse JSON but wire/protocol buffers is very fast compared to GSON.
 why use Wire - features?</b>
 1. Wire messages declare public final fields instead of the usual getter methods. This cuts down on both code generated and code executed. Less code is particularly beneficial for Android programs.
 
